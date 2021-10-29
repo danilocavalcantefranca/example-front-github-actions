@@ -7,6 +7,6 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 
-EXPOSE 3002
+EXPOSE 3000
 
 ENTRYPOINT npm start
